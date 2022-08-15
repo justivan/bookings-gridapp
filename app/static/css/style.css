@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans+Mono&family=Roboto&display=swap");
+
+body {
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Helvetica Neue", sans-serif;
+  background: #f6f9ff;
+  color: #444444;
+  padding-top: 4.5rem;
+}
+
+.card {
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 0.1875rem;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+div.card-header {
+  font-size: 0.875rem;
+}
+
+table.dataTable,
+#reservTable_info {
+  font-size: 0.75rem;
+}
+
+td.ellipsis {
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pagination-sm {
+  --bs-pagination-font-size: 0.75rem;
+  --bs-pagination-border-radius: 0;
+}
+
+#reservTable_filter > label,
+#reservTable_length > label,
+.form-select-sm,
+.form-control-sm {
+  font-size: 0.75rem !important;
+  border-radius: 0;
+}
+
+button.dt-button,
+div.dt-button,
+a.dt-button,
+input.dt-button {
+  font-size: 0.75rem;
+}
+
+.tooltip {
+  font-size: 0.75rem;
+  font-family: "Noto Sans Mono", monospace;
+}
